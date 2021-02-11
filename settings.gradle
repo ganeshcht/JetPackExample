@@ -1,0 +1,2 @@
+rootProject.name='JetPackExample'
+include ':app'

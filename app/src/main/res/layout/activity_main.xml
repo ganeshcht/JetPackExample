@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        android:id="@+id/btn_lifecycle_aware"
+        android:text="@string/lbl_lifecycleaware" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        android:id="@+id/btn_view_model"
+        android:layout_below="@+id/btn_lifecycle_aware"
+        android:text="@string/lbl_view_mode" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        android:id="@+id/btn_live_data"
+        android:layout_below="@+id/btn_view_model"
+        android:text="@string/lbl_live_data" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5dp"
+        android:id="@+id/btn_room"
+        android:layout_below="@+id/btn_live_data"
+        android:text="@string/lbl_room" />
+
+</RelativeLayout>

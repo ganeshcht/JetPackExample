@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JetPackExample</string>
+    <string name="lbl_lifecycleaware">LifeCycleAware Component</string>
+    <string name="lbl_view_mode">View Model</string>
+    <string name="lbl_live_data">Live Data</string>
+    <string name="submit">Submit</string>
+    <string name="lbl_room">Room</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+</resources>
